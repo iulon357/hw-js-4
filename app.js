@@ -31,3 +31,18 @@ console.log("100-დან შემთხვევითი რიცხვი 
 
 //----------------------------------------------
 
+// დავალება-4:
+
+function symbolCounter(str) {
+    var count = 0;
+    for (var i = 0; i < str.length; i++) {
+    count++;
+    }
+    return count;
+}
+
+var sym = symbolCounter("matarebeli");
+console.log(sym);
+
+//----------------------------------------------
+
