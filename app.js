@@ -1,5 +1,7 @@
 // დავალება-1:
 
+console.log("დავალება 1:")
+
 function kvaDab (num) {
     var kvadrati = num * num;
     return kvadrati;
@@ -12,6 +14,8 @@ console.log("კვადრატში აყვანის შემდე�
 //----------------------------------------------
 
 // დავალება-2:
+
+console.log("დავალება 2:")
 
 function discount (a, b) {
     var c = (b/100) * a;
@@ -26,12 +30,16 @@ console.log("ფასდაკლების შემდეგ გადა�
 
 // დავალება-3:
 
+console.log("დავალება 3:")
+
 let x = Math.floor(Math.random ()* 100) +1;
 console.log("100-დან შემთხვევითი რიცხვი არის " + x);
 
 //----------------------------------------------
 
 // დავალება-4:
+
+console.log("დავალება 4:")
 
 function symbolCounter(str) {
     var count = 0;
@@ -42,16 +50,38 @@ function symbolCounter(str) {
 }
 
 var sym = symbolCounter("matarebeli");
-console.log(sym);
+console.log("მითითებული სტრინგი შედგება " + sym + " სიმბოლოსგან");
 
 //----------------------------------------------
 
-// დავალება-5: ბოლომდე არ არის
+// დავალება-5:
+
+console.log("დავალება 5:")
 
 function smallestRate (a, b, c, d, e){
     var arr = [a, b, c, d, e];
     var min = Math.min(...arr);
-    return min;
+   
+	var object = min;
+	switch (object) {
+	case 6.6742:
+		console.log(currencies[0]);
+		break;
+    case 2.8673:
+        console.log(currencies[1]);
+        break;
+    case 3.3111:
+        console.log(currencies[2]);
+        break;
+    case 0.0957:
+        console.log(currencies[3]);
+        break;
+    case 2.5771:
+        console.log(currencies[4]);
+        break;
+}
+	
+	return min;
 }
 
 const currencies = [
